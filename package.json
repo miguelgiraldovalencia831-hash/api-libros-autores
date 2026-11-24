@@ -1,0 +1,18 @@
+{
+  "name": "api-libros-autores",
+  "version": "1.0.0",
+  "description": "API REST JSON de Libros y Autores (Express + MongoDB)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [],
+  "author": "Miguel Giraldo",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^4.22.3",
+    "mongoose": "^8.24.11"
+  }
+}
